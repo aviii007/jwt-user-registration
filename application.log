@@ -3,3 +3,5 @@
 2022-06-10 13:36:36.890  INFO 10156 --- [main] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "dev"
 2022-06-10 13:36:40.345  WARN 10156 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-06-10 13:36:40.973  INFO 10156 --- [main] c.b.u.UserRegistrationApplication        : Started UserRegistrationApplication in 4.788 seconds (JVM running for 5.755)
+2022-06-10 14:28:54.908  WARN 10156 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m45s16ms823µs961ns).
+2022-06-10 21:11:31.703  WARN 10156 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h44m40s199ms158µs735ns).
