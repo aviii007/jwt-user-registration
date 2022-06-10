@@ -112,3 +112,8 @@ Action:
 
 Consider defining a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' in your configuration.
 
+2022-06-10 22:03:28.832  INFO 9980 --- [main] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 18.0.1.1 on admin with PID 9980 (F:\Tomcat\user-registration\target\classes started by HOME in F:\Tomcat\user-registration)
+2022-06-10 22:03:28.836 DEBUG 9980 --- [main] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-10 22:03:28.837  INFO 9980 --- [main] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "dev"
+2022-06-10 22:03:32.326  WARN 9980 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-10 22:03:33.113  INFO 9980 --- [main] c.b.u.UserRegistrationApplication        : Started UserRegistrationApplication in 4.857 seconds (JVM running for 5.68)
