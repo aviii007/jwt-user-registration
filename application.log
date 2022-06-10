@@ -5,3 +5,110 @@
 2022-06-10 13:36:40.973  INFO 10156 --- [main] c.b.u.UserRegistrationApplication        : Started UserRegistrationApplication in 4.788 seconds (JVM running for 5.755)
 2022-06-10 14:28:54.908  WARN 10156 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m45s16ms823µs961ns).
 2022-06-10 21:11:31.703  WARN 10156 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h44m40s199ms158µs735ns).
+2022-06-10 21:49:48.220  INFO 9028 --- [main] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 18.0.1.1 on admin with PID 9028 (F:\Tomcat\user-registration\target\classes started by HOME in F:\Tomcat\user-registration)
+2022-06-10 21:49:48.223 DEBUG 9028 --- [main] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-10 21:49:48.224  INFO 9028 --- [main] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "dev"
+2022-06-10 21:49:53.591  WARN 9028 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userServiceI'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.userregistration.service.UserServiceI' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-06-10 21:49:53.649 ERROR 9028 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userServiceI in com.bridgelabz.userregistration.controller.UserController required a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' in your configuration.
+
+2022-06-10 21:51:09.626  INFO 7308 --- [main] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 18.0.1.1 on admin with PID 7308 (F:\Tomcat\user-registration\target\classes started by HOME in F:\Tomcat\user-registration)
+2022-06-10 21:51:09.630 DEBUG 7308 --- [main] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-10 21:51:09.631  INFO 7308 --- [main] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "dev"
+2022-06-10 21:51:12.758  WARN 7308 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userServiceI'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.userregistration.service.UserServiceI' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-06-10 21:51:12.812 ERROR 7308 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userServiceI in com.bridgelabz.userregistration.controller.UserController required a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' in your configuration.
+
+2022-06-10 21:52:00.452  INFO 6676 --- [main] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 18.0.1.1 on admin with PID 6676 (F:\Tomcat\user-registration\target\classes started by HOME in F:\Tomcat\user-registration)
+2022-06-10 21:52:00.456 DEBUG 6676 --- [main] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-10 21:52:00.457  INFO 6676 --- [main] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "dev"
+2022-06-10 21:52:03.797  WARN 6676 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [F:\Tomcat\user-registration\target\classes\com\bridgelabz\userregistration\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.userregistration.service.UserServiceI' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-06-10 21:52:03.841 ERROR 6676 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.bridgelabz.userregistration.controller.UserController required a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' in your configuration.
+
+2022-06-10 21:54:48.388  INFO 5288 --- [main] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 18.0.1.1 on admin with PID 5288 (F:\Tomcat\user-registration\target\classes started by HOME in F:\Tomcat\user-registration)
+2022-06-10 21:54:48.393 DEBUG 5288 --- [main] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-10 21:54:48.394  INFO 5288 --- [main] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "dev"
+2022-06-10 21:54:51.696  WARN 5288 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userServiceI'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.userregistration.service.UserServiceI' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-06-10 21:54:51.767 ERROR 5288 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userServiceI in com.bridgelabz.userregistration.controller.UserController required a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' in your configuration.
+
+2022-06-10 22:02:06.417  INFO 8960 --- [main] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 18.0.1.1 on admin with PID 8960 (F:\Tomcat\user-registration\target\classes started by HOME in F:\Tomcat\user-registration)
+2022-06-10 22:02:06.421 DEBUG 8960 --- [main] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-10 22:02:06.422  INFO 8960 --- [main] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "dev"
+2022-06-10 22:02:09.593  WARN 8960 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userServiceI'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.userregistration.service.UserServiceI' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-06-10 22:02:09.652 ERROR 8960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userServiceI in com.bridgelabz.userregistration.controller.UserController required a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bridgelabz.userregistration.service.UserServiceI' in your configuration.
+
